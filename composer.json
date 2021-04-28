@@ -14,7 +14,7 @@
     "require": {
         "symfony/framework-bundle": "~2.3|~3.0",
         "doctrine/doctrine-bundle": "~1.2",
-        "kphoen/doctrine-state-machine": "~1.0"
+        "kphoen/doctrine-state-machine": "dev-master"
     },
     "require-dev": {
         "symfony/console": "~2.3|~3.0",
@@ -25,6 +25,12 @@
         "symfony/console": "To execute the command to generate Graphviz views of state machines",
         "symfony/twig-bundle": "To integrate with Twig"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/clementtalleu/DoctrineStateMachineBehavior.git"
+        }
+    ],
     "autoload": {
         "psr-4": { "KPhoen\\DoctrineStateMachineBundle\\": "" }
     }
