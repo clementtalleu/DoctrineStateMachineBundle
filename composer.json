@@ -27,7 +27,7 @@
     },
     "repositories": [
         {
-            "type": "vcs", 
+            "type": "vcs",
             "url": "https://github.com/clementtalleu/DoctrineStateMachineBehavior.git"
         }
     ],
