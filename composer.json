@@ -14,7 +14,7 @@
     "require": {
         "symfony/framework-bundle": "~2.3|~3.0",
         "doctrine/doctrine-bundle": "~1.2",
-        "kphoen/doctrine-state-machine": "dev-master"
+        "kphoen/doctrine-state-machine": "dev-upgrade74"
     },
     "require-dev": {
         "symfony/console": "~2.3|~3.0",
